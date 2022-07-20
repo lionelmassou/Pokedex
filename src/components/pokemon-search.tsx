@@ -18,6 +18,8 @@ const PokemonSearch: FunctionComponent = () => {
     }
 //  IL Y A UN SOUCIS AVEC CETTE LIGNE
     PokemonService.searchPokemon(term).then(pokemons => setPokemons([pokemons]));
+    // PokemonService.searchPokemon(term).then(pokemons => setPokemons(pokemons));
+
   }
  
   return (
